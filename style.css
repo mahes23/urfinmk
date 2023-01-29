@@ -217,4 +217,8 @@ margin-top: 1%;
     .form{
         display: block;
     }
+     .socil-media{
+        margin-top: 6%;
+        font-size: 20px;
+    }
 }
