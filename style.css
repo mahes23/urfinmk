@@ -1,0 +1,220 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+header{
+    background-color:whitesmoke;
+    height: 20vh;
+}
+.container{
+    margin-left: 10%;
+    padding-top: 3%;
+    text-transform: capitalize;
+    width: 60%;
+    position: absolute;
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.container p{
+    padding-top: 1%;
+    font-size: 20px;
+}
+body{
+    background-color: rgba(230,98,46,0.15);
+    background-color:rgb(230, 98, 46);
+    width: 100%;
+    height: 100vh;
+}
+.twoform{
+    display: flex;
+    width: 100%;
+}
+.form1{
+width: 50%;
+height: 70vh;
+margin-top: 1%;
+
+}
+.form2{
+    width: 40%;
+    height: 70vh;
+    position:fixed;
+    top: 10%;
+    left:55%;
+    }
+.form{
+    display: flex;
+    padding-top: 10%;
+    text-align: center;
+    height: 30%;
+    padding-left: 20%;  
+    text-transform: capitalize;
+}
+.right{
+    width: 37%;
+    text-align: start;
+    font-size: 20px;
+}
+.right input{
+    height: 4vh;
+    width: 80%;
+    margin-top: 3%;
+    border: none;
+    border-radius:3px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.left{
+    width: 37%;
+    text-align: start;
+    font-size: 20px;
+}
+.left input{
+    height: 4vh;
+    width: 80%;
+    margin-top: 3%;
+    border: none;
+    border-radius:3px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+.socil-media{
+    width: 50%;
+    height: 5vh;
+    margin-left: 20%;
+    padding-top: 6%;
+}
+.socil-media p{
+    width: 130%;
+    font-size: 20px;
+    padding: 2%;
+    color: black;
+}
+.socil-media{
+    margin-top: 1%;
+    font-size: 20px;
+}
+.socil-media img{
+    width: 30%;
+    margin-top: 2%;
+    background-color: aliceblue;
+    border-radius:20px;
+}
+.singlerowform{
+    background-color: white;
+    height: 70vh;
+    margin-top: 0;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 2px grey;
+   
+}
+.form2in{
+    display: flex;
+    margin-left: 2%;
+}
+.form2rit{
+    width: 50%;
+    height: 43vh;
+    margin-top: 5%;
+}
+.form2rit input{
+    width: 90%;
+    height: 8%;
+    margin-top:15%;
+    border-color: grey;
+    box-shadow: 1px 1px 1px 1px grey;
+   
+}
+.singlerowform input{
+    margin-left: 4%;
+}
+.singlerowform button{
+    text-align: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 1%;
+    width: 93%;
+    height: 6vh;
+    text-transform: capitalize;
+    background-color: blue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.singlerowform h2{
+  padding-top:4%;
+  margin-left: 4%;
+}
+/* ---------------css responsive 600px--------*/
+@media only screen and (max-width:600px){
+    *{
+        font-size:15px;
+    }
+    .container{
+        margin-left: 5%;
+        padding-top: 3%;
+        text-transform: capitalize;
+        width: 100%;
+        position: absolute;
+    }
+    .form1{
+        width: 100%;
+        height: 70vh;
+        margin-top: 1%;
+    }
+    .form2{
+        width: 92%;
+        height: 90vh;
+        position:relative;
+        top: 50%;
+        left:5%;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        .singlerowform{
+            height: 80vh;
+        }
+        .singlerowform h2{
+            width: 100%;
+            font-size: 18px;
+        }
+        .form{
+            padding-left: 5%;
+            width: 100%;
+            
+        }
+        .socil-media{
+            margin-left: 5%;
+        }
+        .socil-media p{
+            width: 200%;
+        }
+}
+@media only screen and (max-width:480px){
+    header{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+        display: block;
+    }
+    .container{
+        width: 100%;
+    }
+    .container p{
+        font-size: 17px;
+    }
+    .right{
+        width:90%
+    }
+    .left{
+        width: 90%;
+    }
+    .form{
+        display: block;
+    }
+}
